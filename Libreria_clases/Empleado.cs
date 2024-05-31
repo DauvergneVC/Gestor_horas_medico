@@ -17,7 +17,7 @@ namespace Libreria_clases
         public Empleado() : base()
         {
             this.setId = 0;
-            this.setSpecialty = Specialty.General.ToString();
+            this.setSpecialty = "";
         }
 
         public Empleado(int id, string rut, string name, string lastname, string gender, string specialty) : base(name,lastname,rut,gender)

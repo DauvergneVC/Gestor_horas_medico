@@ -25,7 +25,8 @@ namespace Gestor_horas_medico
             InitializeComponent();
 
             // Load cbo EspecialidadMedico.
-            cboEspecialidadMedico.ItemsSource = Enum.GetValues(typeof(Specialty));
+            //cboEspecialidadMedico.ItemsSource = Enum.GetValues(typeof(Specialty));
+            cboEspecialidadMedico.ItemsSource = BDConection.obtenerEspecialidades();
             cboEspecialidadMedico.SelectedIndex = 0;
         }
 
@@ -35,8 +36,7 @@ namespace Gestor_horas_medico
         {
             // load cbo NombresMedicos
             // To change doctor name's which changes the specyalty.
-            List<string> nombresMedicos = BDConection.cargarNombresMedicos(((Specialty)cboEspecialidadMedico.SelectedItem).ToString());
-            cboNombresMedicos.ItemsSource = nombresMedicos;
+            cboNombresMedicos.ItemsSource = BDConection.cargarNombresMedicos(cboEspecialidadMedico.SelectedItem.ToString());
             cboNombresMedicos.SelectedIndex = 0;
         }
     }

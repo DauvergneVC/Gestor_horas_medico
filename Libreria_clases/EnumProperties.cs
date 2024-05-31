@@ -15,16 +15,6 @@ namespace Libreria_clases
         Indefinido = 3
     }
 
-    // specialties for doctors.
-    public enum Specialty
-    {
-        General = 0,
-        Psiquiatra = 1,
-        Psicologo = 2,
-        Gastroenterologo = 3,
-        Dentista = 4,
-    }
-
     public enum Provicion
     {
         Ninguna = 0,

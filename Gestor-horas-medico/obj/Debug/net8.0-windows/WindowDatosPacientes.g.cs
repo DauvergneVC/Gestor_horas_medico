@@ -141,7 +141,7 @@ namespace Gestor_horas_medico {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Gestor-horas-medico;component/windowdatospacientes.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Gestor_horas_medico;component/windowdatospacientes.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\WindowDatosPacientes.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

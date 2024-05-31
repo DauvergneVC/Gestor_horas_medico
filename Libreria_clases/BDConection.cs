@@ -44,6 +44,28 @@ namespace Libreria_clases
             return nombresEmpleados;
         }
 
+        public static List<string> obtenerEspecialidades()
+        {
+            List<string> especialidades = new List<string>();
+            string queryString = "SELECT e_especialidad FROM empleados";
+
+            MySqlCommand command = new MySqlCommand(queryString, cn);
+
+            cn.Open();
+            MySqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                string especialidad = reader.GetString(0);
+
+                if (!especialidades.Contains(especialidad))
+                {
+                    especialidades.Add(especialidad);
+                }
+            }
+            cn.Close();
+            return especialidades;
+        }
+
         public static Paciente leerDatosPaciente(string Rut)
         {
             if (!existeRut(Rut))

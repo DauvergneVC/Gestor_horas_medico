@@ -10,3 +10,16 @@ D:\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net8.0\ref
 D:\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net8.0\Libreria_clases.pdb
 D:\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net8.0\ref\Libreria_clases.dll
 D:\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net8.0\Libreria_clases.csproj.AssemblyReference.cache
+C:\Progra\Proyectos_personales\Gestor_horas_medico\Libreria_clases\bin\Debug\net8.0\Libreria_clases.deps.json
+C:\Progra\Proyectos_personales\Gestor_horas_medico\Libreria_clases\bin\Debug\net8.0\Libreria_clases.dll
+C:\Progra\Proyectos_personales\Gestor_horas_medico\Libreria_clases\bin\Debug\net8.0\Libreria_clases.pdb
+C:\Progra\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net8.0\Libreria_clases.csproj.AssemblyReference.cache
+C:\Progra\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net8.0\Libreria_clases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Progra\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net8.0\Libreria_clases.AssemblyInfoInputs.cache
+C:\Progra\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net8.0\Libreria_clases.AssemblyInfo.cs
+C:\Progra\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net8.0\Libreria_clases.csproj.CoreCompileInputs.cache
+C:\Progra\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net8.0\Libreria_clases.sourcelink.json
+C:\Progra\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net8.0\Libreria_clases.dll
+C:\Progra\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net8.0\refint\Libreria_clases.dll
+C:\Progra\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net8.0\Libreria_clases.pdb
+C:\Progra\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net8.0\ref\Libreria_clases.dll
