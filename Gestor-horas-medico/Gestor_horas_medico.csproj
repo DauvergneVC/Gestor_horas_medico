@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Gestor_horas_medico</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Img\PsiHoras (1).png" />
+    <None Remove="Img\PsiHoras.png" />
+    <None Remove="Img\PsiHoras3.png" />
+    <None Remove="Img\PsiHorasAgendarHoras.png" />
+    <None Remove="Img\PsiHorasFondo1.png" />
+    <None Remove="Img\PsiHorasSelecciona.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Libreria_clases\Libreria_clases.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Img\PsiHoras (1).png" />
+    <Resource Include="Img\PsiHoras.png" />
+    <Resource Include="Img\PsiHoras3.png" />
+    <Resource Include="Img\PsiHorasAgendarHoras.png" />
+    <Resource Include="Img\PsiHorasFondo1.png" />
+    <Resource Include="Img\PsiHorasSelecciona.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+D:\Proyectos_personales\Gestor_horas_medico\Libreria_clases\bin\Debug\net7.0\Libreria_clases.deps.json
+D:\Proyectos_personales\Gestor_horas_medico\Libreria_clases\bin\Debug\net7.0\Libreria_clases.dll
+D:\Proyectos_personales\Gestor_horas_medico\Libreria_clases\bin\Debug\net7.0\Libreria_clases.pdb
+D:\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net7.0\Libreria_clases.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net7.0\Libreria_clases.AssemblyInfoInputs.cache
+D:\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net7.0\Libreria_clases.AssemblyInfo.cs
+D:\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net7.0\Libreria_clases.csproj.CoreCompileInputs.cache
+D:\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net7.0\Libreria_clases.dll
+D:\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net7.0\refint\Libreria_clases.dll
+D:\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net7.0\Libreria_clases.pdb
+D:\Proyectos_personales\Gestor_horas_medico\Libreria_clases\obj\Debug\net7.0\ref\Libreria_clases.dll

@@ -1,0 +1,16 @@
+﻿<Window x:Class="Gestor_horas_medico.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gestor_horas_medico"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="388" Width="646">
+    <Grid Background="White">
+        <Image Source="/Img/PsiHorasFondo1.png" Stretch="Fill" Margin="80,65,80,-18"/>
+        <Image Margin="0,0,0,275" Source="/Img/PsiHorasSelecciona.png" Stretch="Fill"/>
+        <Button x:Name="Pacientes" HorizontalAlignment="Center" Margin="0,127,0,0" VerticalAlignment="Top" Content="Datos de los pacientes" Click="Pacientes_Click" Height="46" Width="248" BorderBrush="#FF014CAE" Background="White" BorderThickness="3,3,3,3"/>
+        <Button x:Name="btnVentanaHoras" Content="Agentar Horas" HorizontalAlignment="Center" Click="btnVentanaHoras_Click" Width="248" Margin="0,189,0,0" Height="46" VerticalAlignment="Top" BorderBrush="#FF014CAE" Background="White" BorderThickness="3,3,3,3"/>
+        <Button x:Name="btnVentanaVerHorasAgendadas" Content="Ver horas agendadas" Margin="0,251,0,0" Click="btnVentanaVerHorasAgendadas_Click" BorderBrush="#FF014CAE" Background="White" BorderThickness="3,3,3,3" HorizontalAlignment="Center" Width="248" Height="46" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
