@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using MySqlX.XDevAPI.Common;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Libreria_clases
 {
@@ -208,6 +210,61 @@ namespace Libreria_clases
                 cn.Close() ;
                 return id.ToString();
             }
+        }
+
+        public static string insertConsulta(string rut, string nameMedico,Consulta datosConsulta)
+        {
+            if (!existeRut(rut))
+            {
+                throw new ArgumentException(string.Format("El rut del paciente no se encuentra registrado"));
+            }
+
+            int id_p, id_e;
+            DateTime date = datosConsulta.getDate;
+
+            string query1 = "select P_id from pacientes WHERE P_rut = @Rut";
+            string query2 = "select e_id from empleados WHERE e_nombre = @EmpleadoName";
+            string query3 = "INSERT INTO consulta (e_id,p_id,c_fecha) VALUES(@edi, @pid, @date)";
+
+            cn.Open();
+
+            MySqlCommand command1 = new MySqlCommand(query1, cn);
+            command1.Parameters.AddWithValue("@rut", rut);
+            using (MySqlDataReader reader = command1.ExecuteReader())
+            {
+                if (reader.Read())
+                {
+                    id_p = reader.GetInt32(0);
+                }
+                else
+                {
+                    // Manejar el caso donde no se encuentra el registro
+                    throw new Exception("No se encontró el registro con el rut especificado.");
+                }
+            }
+
+            MySqlCommand command2 = new MySqlCommand(query2, cn);
+            command2.Parameters.AddWithValue("@EmpleadoName", nameMedico);
+            using ( MySqlDataReader reader = command2.ExecuteReader())
+            {
+                if (reader.Read())
+                {
+                    id_e = reader.GetInt32(0);
+                }
+                else
+                {
+                    throw new Exception("No se encontró el registro del empleado especificado.");
+                }
+            }
+
+            MySqlCommand command3 = new MySqlCommand(query3,cn);
+            command3.Parameters.AddWithValue("@edi",id_e);
+            command3.Parameters.AddWithValue("@pid",id_p);
+            command3.Parameters.AddWithValue("@date",date);
+            command3.ExecuteNonQuery();
+
+            cn.Close();
+            return "";
         }
 
 

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Gestor_horas_medico"
         mc:Ignorable="d"
-        Title="WindowsAgendarHora" Height="450" Width="800">
+        Title="WindowsAgendarHora" Height="356" Width="794">
     <Grid>
         <Image Source="/Img/PsiHorasAgendarHoras.png" Stretch="Fill" Width="800" HorizontalAlignment="Center" Height="98" VerticalAlignment="Top" />
 
@@ -13,18 +13,15 @@
         <Label Content="Seleccione especialidad" HorizontalAlignment="Left" Margin="80,192,0,0" VerticalAlignment="Top"/>
         <Label Content="Nombre del medico" HorizontalAlignment="Left" Margin="445,153,0,0" VerticalAlignment="Top"/>
         <Label Content="Fecha de la consulta" HorizontalAlignment="Left" Margin="80,240,0,0" VerticalAlignment="Top"/>
-        <Label Content="Hora de la consulta" HorizontalAlignment="Left" Margin="83,284,0,0" VerticalAlignment="Top" Width="120"/>
 
         <TextBox x:Name="txtRutPaciente" HorizontalAlignment="Left" Margin="220,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" Height="22"/>
-        <TextBox x:Name="txtHora" HorizontalAlignment="Left" Margin="220,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76" Height="22" TextAlignment="Right"/>
-        <TextBox x:Name="txtMinuto" HorizontalAlignment="Left" Margin="310,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="70" Height="22" TextAlignment="Right"/>
 
         <ComboBox x:Name="cboNombresMedicos" HorizontalAlignment="Left" Height="24" Margin="566,155,0,0" VerticalAlignment="Top" Width="158"/>
         <ComboBox x:Name="cboEspecialidadMedico" HorizontalAlignment="Left" Margin="221,194,0,0" VerticalAlignment="Top" Width="158" SelectionChanged="cboEspecialidadMedico_SelectionChanged"/>
-        
+
         <DatePicker x:Name="dtFecha" HorizontalAlignment="Left" Margin="221,241,0,0" VerticalAlignment="Top" Width="158"/>
 
-        <Button x:Name="btnAgregarConsulta" Content="Agregar consulta" HorizontalAlignment="Left" Margin="503,287,0,0" VerticalAlignment="Top" Height="40" Width="176" BorderBrush="#FF014CAE" Background="White"/>
+        <Button x:Name="btnAgregarConsulta" Content="Agregar consulta" HorizontalAlignment="Left" Margin="548,225,0,0" VerticalAlignment="Top" Height="40" Width="176" BorderBrush="#FF014CAE" Background="White" Click="btnAgregarConsulta_Click"/>
 
     </Grid>
 </Window>
