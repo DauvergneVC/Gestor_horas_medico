@@ -19,7 +19,7 @@ namespace Libreria_clases
         private static string port = "3306";
         private static string database = "gestor_horas";
         private static string uid = "root";
-        private static string password = "VHHmWDiJ";
+        private static string password = "9uVrfo8MPZOAFv";
 
         private static string conect = $"SERVER={server};PORT={port};DATABASE={database};UID={uid};Pwd={password};";
         private static MySqlConnection cn = new MySqlConnection(conect);
@@ -104,6 +104,40 @@ namespace Libreria_clases
                 Paciente paciente = new Paciente(rut, name, lastname, edad, gender, phone, provicion);
                 cn.Close();
                 return paciente;
+            }
+        }
+
+        public static List<Consulta> readConsulta(string rut)
+        {
+            // Arreglo para almacenar las consultas
+            List<Consulta> consultas = new List<Consulta>();
+
+            if (!existeRut(rut))
+            {
+                throw new ArgumentException(string.Format("El rut del paciente no se encuentra registrado"));
+            }
+            else
+            {
+
+                string query1 = "Select * from consulta where p_id = (select p_id from pacientes where p_rut = @Rut)";
+                MySqlCommand command = new MySqlCommand(query1, cn);
+                command.Parameters.AddWithValue("@rut", rut);
+
+                cn.Open();
+                MySqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    int Consulta_id = reader.GetInt32(0);
+                    int Id_empleado = reader.GetInt32(1);
+                    DateTime Fecha_consulta = reader.GetDateTime(3);
+
+                    Consulta consulta = new Consulta(Consulta_id, Id_empleado, Fecha_consulta);
+                    consultas.Add(consulta);
+                }
+
+                cn.Close();
+                return consultas;
             }
         }
 
@@ -212,59 +246,61 @@ namespace Libreria_clases
             }
         }
 
-        public static string insertConsulta(string rut, string nameMedico,Consulta datosConsulta)
+        public static string insertConsulta(string rut, string nameMedico,DateTime Fecha)
         {
             if (!existeRut(rut))
             {
                 throw new ArgumentException(string.Format("El rut del paciente no se encuentra registrado"));
             }
-
-            int id_p, id_e;
-            DateTime date = datosConsulta.getDate;
-
-            string query1 = "select P_id from pacientes WHERE P_rut = @Rut";
-            string query2 = "select e_id from empleados WHERE e_nombre = @EmpleadoName";
-            string query3 = "INSERT INTO consulta (e_id,p_id,c_fecha) VALUES(@edi, @pid, @date)";
-
-            cn.Open();
-
-            MySqlCommand command1 = new MySqlCommand(query1, cn);
-            command1.Parameters.AddWithValue("@rut", rut);
-            using (MySqlDataReader reader = command1.ExecuteReader())
+            else
             {
-                if (reader.Read())
+                int id_p, id_e;
+                DateTime date = Fecha;
+
+                string query1 = "select P_id from pacientes WHERE P_rut = @Rut";
+                string query2 = "select e_id from empleados WHERE e_nombre = @EmpleadoName";
+                string query3 = "INSERT INTO consulta (e_id,p_id,c_fecha) VALUES(@edi, @pid, @date)";
+
+                cn.Open();
+
+                MySqlCommand command1 = new MySqlCommand(query1, cn);
+                command1.Parameters.AddWithValue("@rut", rut);
+                using (MySqlDataReader reader = command1.ExecuteReader())
                 {
-                    id_p = reader.GetInt32(0);
+                    if (reader.Read())
+                    {
+                        id_p = reader.GetInt32(0);
+                    }
+                    else
+                    {
+                        // Manejar el caso donde no se encuentra el registro
+                        throw new Exception("No se encontró el registro con el rut especificado.");
+                    }
                 }
-                else
+
+                MySqlCommand command2 = new MySqlCommand(query2, cn);
+                command2.Parameters.AddWithValue("@EmpleadoName", nameMedico);
+                using (MySqlDataReader reader = command2.ExecuteReader())
                 {
-                    // Manejar el caso donde no se encuentra el registro
-                    throw new Exception("No se encontró el registro con el rut especificado.");
+                    if (reader.Read())
+                    {
+                        id_e = reader.GetInt32(0);
+                    }
+                    else
+                    {
+                        throw new Exception("No se encontró el registro del empleado especificado.");
+                    }
                 }
+
+                MySqlCommand command3 = new MySqlCommand(query3, cn);
+                command3.Parameters.AddWithValue("@edi", id_e);
+                command3.Parameters.AddWithValue("@pid", id_p);
+                command3.Parameters.AddWithValue("@date", date);
+                command3.ExecuteNonQuery();
+
+                cn.Close();
+                return "";
             }
-
-            MySqlCommand command2 = new MySqlCommand(query2, cn);
-            command2.Parameters.AddWithValue("@EmpleadoName", nameMedico);
-            using ( MySqlDataReader reader = command2.ExecuteReader())
-            {
-                if (reader.Read())
-                {
-                    id_e = reader.GetInt32(0);
-                }
-                else
-                {
-                    throw new Exception("No se encontró el registro del empleado especificado.");
-                }
-            }
-
-            MySqlCommand command3 = new MySqlCommand(query3,cn);
-            command3.Parameters.AddWithValue("@edi",id_e);
-            command3.Parameters.AddWithValue("@pid",id_p);
-            command3.Parameters.AddWithValue("@date",date);
-            command3.ExecuteNonQuery();
-
-            cn.Close();
-            return "";
         }
 
 

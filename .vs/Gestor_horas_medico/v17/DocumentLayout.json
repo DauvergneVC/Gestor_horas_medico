@@ -1,42 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\",
+  "WorkspaceRootPath": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|c:\\progra\\proyectos_personales\\gestor_horas_medico\\libreria_clases\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|solutionrelative:libreria_clases\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B25A60B1-6D21-49AD-A92A-7D86199AEA14}|Gestor-horas-medico\\Gestor_horas_medico.csproj|c:\\repo\\proyectos_personales\\gestor_horas_medico\\gestor-horas-medico\\windowverhoras.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B25A60B1-6D21-49AD-A92A-7D86199AEA14}|Gestor-horas-medico\\Gestor_horas_medico.csproj|solutionrelative:gestor-horas-medico\\windowverhoras.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|c:\\progra\\proyectos_personales\\gestor_horas_medico\\libreria_clases\\bdconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|solutionrelative:libreria_clases\\bdconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B25A60B1-6D21-49AD-A92A-7D86199AEA14}|Gestor-horas-medico\\Gestor_horas_medico.csproj|c:\\repo\\proyectos_personales\\gestor_horas_medico\\gestor-horas-medico\\windowverhoras.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B25A60B1-6D21-49AD-A92A-7D86199AEA14}|Gestor-horas-medico\\Gestor_horas_medico.csproj|solutionrelative:gestor-horas-medico\\windowverhoras.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B25A60B1-6D21-49AD-A92A-7D86199AEA14}|Gestor-horas-medico\\Gestor_horas_medico.csproj|c:\\progra\\proyectos_personales\\gestor_horas_medico\\gestor-horas-medico\\windowsagendarhora.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B25A60B1-6D21-49AD-A92A-7D86199AEA14}|Gestor-horas-medico\\Gestor_horas_medico.csproj|solutionrelative:gestor-horas-medico\\windowsagendarhora.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B25A60B1-6D21-49AD-A92A-7D86199AEA14}|Gestor-horas-medico\\Gestor_horas_medico.csproj|c:\\progra\\proyectos_personales\\gestor_horas_medico\\gestor-horas-medico\\windowsagendarhora.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B25A60B1-6D21-49AD-A92A-7D86199AEA14}|Gestor-horas-medico\\Gestor_horas_medico.csproj|solutionrelative:gestor-horas-medico\\windowsagendarhora.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B25A60B1-6D21-49AD-A92A-7D86199AEA14}|Gestor-horas-medico\\Gestor_horas_medico.csproj|c:\\progra\\proyectos_personales\\gestor_horas_medico\\gestor-horas-medico\\windowdatospacientes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B25A60B1-6D21-49AD-A92A-7D86199AEA14}|Gestor-horas-medico\\Gestor_horas_medico.csproj|solutionrelative:gestor-horas-medico\\windowdatospacientes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|c:\\progra\\proyectos_personales\\gestor_horas_medico\\libreria_clases\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|solutionrelative:libreria_clases\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|c:\\progra\\proyectos_personales\\gestor_horas_medico\\libreria_clases\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|c:\\repo\\proyectos_personales\\gestor_horas_medico\\libreria_clases\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|solutionrelative:libreria_clases\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|c:\\progra\\proyectos_personales\\gestor_horas_medico\\libreria_clases\\enumproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|solutionrelative:libreria_clases\\enumproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|c:\\repo\\proyectos_personales\\gestor_horas_medico\\libreria_clases\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|solutionrelative:libreria_clases\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|c:\\progra\\proyectos_personales\\gestor_horas_medico\\libreria_clases\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|c:\\repo\\proyectos_personales\\gestor_horas_medico\\libreria_clases\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|solutionrelative:libreria_clases\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|c:\\repo\\proyectos_personales\\gestor_horas_medico\\libreria_clases\\bdconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|solutionrelative:libreria_clases\\bdconection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|c:\\repo\\proyectos_personales\\gestor_horas_medico\\libreria_clases\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|solutionrelative:libreria_clases\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|c:\\repo\\proyectos_personales\\gestor_horas_medico\\libreria_clases\\enumproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77F27DFD-6793-445B-94FE-FBF4785F6CAF}|Libreria_clases\\Libreria_clases.csproj|solutionrelative:libreria_clases\\enumproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 190,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,101 +50,90 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WindowDatosPacientes.xaml.cs",
-              "DocumentMoniker": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Gestor-horas-medico\\WindowDatosPacientes.xaml.cs",
-              "RelativeDocumentMoniker": "Gestor-horas-medico\\WindowDatosPacientes.xaml.cs",
-              "ToolTip": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Gestor-horas-medico\\WindowDatosPacientes.xaml.cs",
-              "RelativeToolTip": "Gestor-horas-medico\\WindowDatosPacientes.xaml.cs",
-              "ViewState": "AQIAAMAAAAAAAAAAAAAawNcAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T02:02:56.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WindowsAgendarHora.xaml",
-              "DocumentMoniker": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Gestor-horas-medico\\WindowsAgendarHora.xaml",
-              "RelativeDocumentMoniker": "Gestor-horas-medico\\WindowsAgendarHora.xaml",
-              "ToolTip": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Gestor-horas-medico\\WindowsAgendarHora.xaml",
-              "RelativeToolTip": "Gestor-horas-medico\\WindowsAgendarHora.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-20T01:59:08.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WindowsAgendarHora.xaml.cs",
-              "DocumentMoniker": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Gestor-horas-medico\\WindowsAgendarHora.xaml.cs",
-              "RelativeDocumentMoniker": "Gestor-horas-medico\\WindowsAgendarHora.xaml.cs",
-              "ToolTip": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Gestor-horas-medico\\WindowsAgendarHora.xaml.cs",
-              "RelativeToolTip": "Gestor-horas-medico\\WindowsAgendarHora.xaml.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAADYAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T01:58:16.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "WindowVerHoras.xaml",
+              "DocumentMoniker": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Gestor-horas-medico\\WindowVerHoras.xaml",
+              "RelativeDocumentMoniker": "Gestor-horas-medico\\WindowVerHoras.xaml",
+              "ToolTip": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Gestor-horas-medico\\WindowVerHoras.xaml",
+              "RelativeToolTip": "Gestor-horas-medico\\WindowVerHoras.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-03T23:01:26.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WindowVerHoras.xaml.cs",
+              "DocumentMoniker": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Gestor-horas-medico\\WindowVerHoras.xaml.cs",
+              "RelativeDocumentMoniker": "Gestor-horas-medico\\WindowVerHoras.xaml.cs",
+              "ToolTip": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Gestor-horas-medico\\WindowVerHoras.xaml.cs",
+              "RelativeToolTip": "Gestor-horas-medico\\WindowVerHoras.xaml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T23:01:29.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "BDConection.cs",
-              "DocumentMoniker": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\BDConection.cs",
+              "DocumentMoniker": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\BDConection.cs",
               "RelativeDocumentMoniker": "Libreria_clases\\BDConection.cs",
-              "ToolTip": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\BDConection.cs",
+              "ToolTip": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\BDConection.cs",
               "RelativeToolTip": "Libreria_clases\\BDConection.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAAAUwNkAAAANAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T21:42:00.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Consulta.cs",
-              "DocumentMoniker": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Consulta.cs",
+              "DocumentMoniker": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Consulta.cs",
               "RelativeDocumentMoniker": "Libreria_clases\\Consulta.cs",
-              "ToolTip": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Consulta.cs",
+              "ToolTip": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Consulta.cs",
               "RelativeToolTip": "Libreria_clases\\Consulta.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAvwCYAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T02:02:05.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Paciente.cs",
-              "DocumentMoniker": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Paciente.cs",
+              "DocumentMoniker": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Paciente.cs",
               "RelativeDocumentMoniker": "Libreria_clases\\Paciente.cs",
-              "ToolTip": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Paciente.cs",
+              "ToolTip": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Paciente.cs",
               "RelativeToolTip": "Libreria_clases\\Paciente.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAIwD0AAAB9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T17:47:31.89Z"
+              "WhenOpened": "2024-05-18T17:47:31.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Persona.cs",
+              "RelativeDocumentMoniker": "Libreria_clases\\Persona.cs",
+              "ToolTip": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Persona.cs",
+              "RelativeToolTip": "Libreria_clases\\Persona.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T01:49:30.965Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Persona.cs",
-              "RelativeDocumentMoniker": "Libreria_clases\\Persona.cs",
-              "ToolTip": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Persona.cs",
-              "RelativeToolTip": "Libreria_clases\\Persona.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T01:49:30.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Empleado.cs",
+              "DocumentMoniker": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Empleado.cs",
               "RelativeDocumentMoniker": "Libreria_clases\\Empleado.cs",
-              "ToolTip": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Empleado.cs",
+              "ToolTip": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Empleado.cs",
               "RelativeToolTip": "Libreria_clases\\Empleado.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAMwBMAAAAjAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAawBMAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T16:37:11.171Z"
             },
@@ -156,9 +141,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "EnumProperties.cs",
-              "DocumentMoniker": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\EnumProperties.cs",
+              "DocumentMoniker": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\EnumProperties.cs",
               "RelativeDocumentMoniker": "Libreria_clases\\EnumProperties.cs",
-              "ToolTip": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\EnumProperties.cs",
+              "ToolTip": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\EnumProperties.cs",
               "RelativeToolTip": "Libreria_clases\\EnumProperties.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

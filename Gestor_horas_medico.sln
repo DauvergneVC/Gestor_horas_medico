@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Libreria_clases", "Libreria
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gestor_horas_medico", "Gestor-horas-medico\Gestor_horas_medico.csproj", "{B25A60B1-6D21-49AD-A92A-7D86199AEA14}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestCommands", "TestCommands\TestCommands.csproj", "{9CC014C2-8386-445C-9AEA-0C9ECFD1FFEA}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{B25A60B1-6D21-49AD-A92A-7D86199AEA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B25A60B1-6D21-49AD-A92A-7D86199AEA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B25A60B1-6D21-49AD-A92A-7D86199AEA14}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9CC014C2-8386-445C-9AEA-0C9ECFD1FFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CC014C2-8386-445C-9AEA-0C9ECFD1FFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CC014C2-8386-445C-9AEA-0C9ECFD1FFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CC014C2-8386-445C-9AEA-0C9ECFD1FFEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

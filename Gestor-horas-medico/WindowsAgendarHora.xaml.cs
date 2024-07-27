@@ -47,12 +47,11 @@ namespace Gestor_horas_medico
             try
             {
                 DateTime date = (DateTime)dtFecha.SelectedDate;
-                Consulta consulta = new Consulta(date);
 
                 string rutPaciente = txtRutPaciente.Text;
                 string medicoName = cboNombresMedicos.SelectedItem.ToString();
 
-                BDConection.insertConsulta(rutPaciente, medicoName, consulta);
+                BDConection.insertConsulta(rutPaciente, medicoName, date);
 
                 MessageBox.Show("Consulta agregada con exito");
             }

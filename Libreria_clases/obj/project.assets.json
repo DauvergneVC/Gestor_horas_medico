@@ -2073,23 +2073,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dauve\\.nuget\\packages\\": {},
+    "C:\\Users\\vicen\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Libreria_clases.csproj",
+      "projectUniqueName": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Libreria_clases.csproj",
       "projectName": "Libreria_clases",
-      "projectPath": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Libreria_clases.csproj",
-      "packagesPath": "C:\\Users\\dauve\\.nuget\\packages\\",
-      "outputPath": "C:\\Progra\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\obj\\",
+      "projectPath": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\Libreria_clases.csproj",
+      "packagesPath": "C:\\Users\\vicen\\.nuget\\packages\\",
+      "outputPath": "C:\\Repo\\Proyectos_personales\\Gestor_horas_medico\\Libreria_clases\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dauve\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vicen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2147,7 +2147,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

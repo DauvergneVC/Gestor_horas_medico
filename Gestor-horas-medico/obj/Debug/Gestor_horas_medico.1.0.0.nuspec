@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Gestor_horas_medico</id>
+    <version>1.0.0</version>
+    <authors>Gestor_horas_medico</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="f7f8145dc51eb5eb6a023913a1c25cd075610c00" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="Libreria_clases" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Repo\Proyectos_personales\Gestor_horas_medico\Gestor-horas-medico\bin\Debug\net8.0-windows\Gestor_horas_medico.runtimeconfig.json" target="lib\net8.0-windows7.0\Gestor_horas_medico.runtimeconfig.json" />
+    <file src="C:\Repo\Proyectos_personales\Gestor_horas_medico\Gestor-horas-medico\bin\Debug\net8.0-windows\Gestor_horas_medico.dll" target="lib\net8.0-windows7.0\Gestor_horas_medico.dll" />
+  </files>
+</package>

@@ -7,6 +7,24 @@
         mc:Ignorable="d"
         Title="WindowVerHoras" Height="450" Width="800">
     <Grid>
+        <Image Source="/Img/PsiHoras (1).png" Stretch="Fill" Width="800" HorizontalAlignment="Center" Height="98" VerticalAlignment="Top" />
         
+        <Label Content="Rut del paciente" HorizontalAlignment="Left" Margin="26,152,0,0" VerticalAlignment="Top"/>
+        <Label Content="xxxxxxxx-x" HorizontalAlignment="Left" Margin="169,128,0,0" VerticalAlignment="Top"/>
+        
+        <ListView x:Name="lsvDatos" ItemsSource="{Binding}" Margin="356,109,56,45">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header=" Consulta id " DisplayMemberBinding="{Binding id}" />
+                    <GridViewColumn Header=" Id empleado " DisplayMemberBinding="{Binding empleado}" />
+                    <GridViewColumn Header=" Fecha consulta " DisplayMemberBinding="{Binding fecha}" />
+                    <!-- Agrega más columnas según las propiedades de la clase ConsultaItem -->
+                </GridView>
+            </ListView.View>
+        </ListView>
+        
+        <TextBox x:Name="txtRutPaciente" HorizontalAlignment="Left" Margin="169,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" Height="26"/>
+        
+        <Button x:Name="btnMostrar" Content="Mostrar" HorizontalAlignment="Left" Margin="152,217,0,0" Width="176" Height="40" VerticalAlignment="Top" BorderBrush="#FF014CAE" Background="White" Click="btnMostrar_Click"/>
     </Grid>
 </Window>
